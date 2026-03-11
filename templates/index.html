@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedType - Typing Speed Test</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">SpeedType</a>
+            <div class="d-flex">
+                <button id="restartBtn" class="btn btn-outline-primary rounded-circle me-2">
+                    <i class="bi bi-arrow-clockwise"></i>
+                </button>
+                <button id="settingsBtn" class="btn btn-outline-primary rounded-circle">
+                    <i class="bi bi-gear"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="text-center mb-4">
+                    <h1 class="display-5 fw-bold">Typing Speed Test</h1>
+                    <p class="lead text-muted">Test your typing speed and accuracy</p>
+                </div>
+
+                <!-- Stats Section -->
+                <div class="row mb-4">
+                    <div class="col-md-4 mb-3">
+                        <div class="card stat-card h-100">
+                            <div class="card-body text-center">
+                                <i class="bi bi-speedometer2 fs-2 text-primary"></i>
+                                <h5 class="card-title mt-2">WPM</h5>
+                                <h2 class="mb-0" id="wpm">0</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card stat-card h-100">
+                            <div class="card-body text-center">
+                                <i class="bi bi-check-circle fs-2 text-success"></i>
+                                <h5 class="card-title mt-2">Accuracy</h5>
+                                <h2 class="mb-0" id="accuracy">100%</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card stat-card h-100">
+                            <div class="card-body text-center">
+                                <i class="bi bi-clock fs-2 text-info"></i>
+                                <h5 class="card-title mt-2">Time</h5>
+                                <h2 class="mb-0" id="timer">60s</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text Display Area -->
+                <div class="card text-display mb-4">
+                    <div class="card-body">
+                        <p id="textToType" class="mb-0"></p>
+                    </div>
+                </div>
+
+                <!-- Typing Input Area -->
+                <div class="mb-4">
+                    <textarea 
+                        id="typingInput" 
+                        class="form-control form-control-lg" 
+                        rows="3" 
+                        placeholder="Start typing here..."
+                        autofocus
+                    ></textarea>
+                </div>
+
+                <!-- Control Buttons -->
+                <div class="d-grid gap-2 d-md-flex justify-content-center mb-5">
+                    <button id="newTextBtn" class="btn btn-primary btn-lg me-md-2">
+                        <i class="bi bi-arrow-repeat me-1"></i> New Text
+                    </button>
+                    <button id="restartTestBtn" class="btn btn-outline-primary btn-lg">
+                        <i class="bi bi-arrow-clockwise me-1"></i> Restart Test
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-auto py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">By @Blue-Rangoon, follow me on Github</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/static/index.js"></script>
+</body>
+</html>

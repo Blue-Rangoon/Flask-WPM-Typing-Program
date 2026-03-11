@@ -1,0 +1,15 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+jinja2==3.1.4
+
+
+pip install -r requirements.txt
+
+
+When you connect your repo to GitHub, deployment platforms automatically detect:
+
+requirements.txt
+
+and install dependencies.
+This file is essential for ensuring that your application has all the necessary packages to run correctly in the deployment environment. Make sure to keep it updated with any new dependencies you add to your project.
+
