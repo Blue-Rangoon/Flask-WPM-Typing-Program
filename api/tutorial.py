@@ -9,9 +9,16 @@ from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 import random
+import os
 
 # Create FastAPI object first
 app = FastAPI()
+
+# Absolute paths for serverless environment for VERCEL deployment
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+
+templates = Jinja2Templates(directory=os.path.join(BASE_DIR, "templates"))
+app.mount("/static", StaticFiles(directory=os.path.join(BASE_DIR, "static")), name="static")
 
 # Mount static files and templates
 app.mount("/static", StaticFiles(directory="static"), name="static")
