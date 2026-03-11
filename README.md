@@ -25,7 +25,7 @@ The app measures:
 - Words Per Minute (WPM)
 - Typing Accuracy
 - Live typing feedback
-- 60 second countdown timer
+- 60-second countdown timer
 
 Random text is fetched dynamically from the backend API.
 
@@ -64,16 +64,15 @@ Random text is fetched dynamically from the backend API.
 ```bash
 wpm-typing-test/
 │
-├── tutorial.py
-├── text.txt
-├── requirements.txt
-│
+├── api/
+│   └── tutorial.py  
 ├── static/
 │   ├── style.css
 │   └── script.js
-│
-└── templates/
-    └── index.html
+├── templates/
+│   └── index.html
+├── text.txt
+└── requirements.txt
 ```
 
 ## ⚙️ Installation (Run Locally)
