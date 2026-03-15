@@ -29,13 +29,13 @@ Lightweight WPM Typing Test built with Python FastAPI and Vanilla JavaScript
 
 ---
 
-## 🖥️ Project Preview 
+# 🖥️ Project Preview 
 
 ![Interface Screen Shot](preview.png)
 
 ---
 
-## 🌐 Live Demo
+# 🌐 Live Demo
 
 https://flask-wpm-typing-program.vercel.app/
 
