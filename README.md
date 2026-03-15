@@ -12,8 +12,6 @@
 ## 🌐 Live Demo
 
 https://flask-wpm-typing-program.vercel.app/
-OR
-https://flask-wpm-typing-program.onrender.com/
 
 
 # ⌨️ WPM Typing Test (FastAPI + JavaScript)
