@@ -1,13 +1,39 @@
-![Python](https://img.shields.io/badge/Python-FastAPI-blue)
-![Frontend](https://img.shields.io/badge/Frontend-VanillaJS-yellow)
-![Status](https://img.shields.io/badge/status-active-success)
+# 💬 SpeedType – WPM Typing Program
 
+<p align="center">
+Lightweight WPM Typing Test built with Python FastAPI and Vanilla JavaScript
+</p>
 
-## 📜 MIT License
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com/?lines=WPM+Typing+Test;Improve+Your+Typing+Speed;Frontend+%2B+Backend+Integration;Real-Time+WPM+%26+Accuracy">
+</p>
+
 ---
+
+# 🛫 Project Badges
+
+![HTML5](https://img.shields.io/badge/frontend-html5-orange?logo=html5)
+![CSS3](https://img.shields.io/badge/style-css3-blue?logo=css3)
+![JavaScript](https://img.shields.io/badge/logic-javascript-yellow?logo=javascript)
+![Java](https://img.shields.io/badge/backend-java-red?logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/framework-springboot-green?logo=springboot)
+![Netlify](https://img.shields.io/badge/deployment-netlify-teal?logo=netlify)
+![Crypto](https://img.shields.io/badge/domain-cryptocurrency-purple?logo=bitcoin)
+![Dashboard](https://img.shields.io/badge/ui-dashboard-blue)
+
+---
+
+# 👀 Visitors
+
+![Visitors](https://komarev.com/ghpvc/?username=Blue-Rangoon&label=Repository%20Views&color=blue)
+
+---
+
+## 🖥️ Project Preview 
 
 ![Interface Screen Shot](preview.png)
 
+---
 
 ## 🌐 Live Demo
 
