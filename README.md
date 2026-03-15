@@ -15,10 +15,10 @@ Lightweight WPM Typing Test built with Python FastAPI and Vanilla JavaScript
 ![HTML5](https://img.shields.io/badge/frontend-html5-orange?logo=html5)
 ![CSS3](https://img.shields.io/badge/style-css3-blue?logo=css3)
 ![JavaScript](https://img.shields.io/badge/logic-javascript-yellow?logo=javascript)
-![Java](https://img.shields.io/badge/backend-java-red?logo=openjdk)
-![Spring Boot](https://img.shields.io/badge/framework-springboot-green?logo=springboot)
-![Netlify](https://img.shields.io/badge/deployment-netlify-teal?logo=netlify)
-![Crypto](https://img.shields.io/badge/domain-cryptocurrency-purple?logo=bitcoin)
+![Python](https://img.shields.io/badge/backend-python-blue?logo=python)
+![Flask](https://img.shields.io/badge/framework-flask-lightgrey?logo=flask)
+![Vercel](https://img.shields.io/badge/deployment-vercel-black?logo=vercel)
+![Typing](https://img.shields.io/badge/domain-WPM%20%26%20SpeedTyping-purple)
 ![Dashboard](https://img.shields.io/badge/ui-dashboard-blue)
 
 ---
