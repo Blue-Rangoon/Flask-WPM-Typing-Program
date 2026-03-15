@@ -10,7 +10,7 @@ Lightweight WPM Typing Test built with Python FastAPI and Vanilla JavaScript
 
 ---
 
-# 🛫 Project Badges
+## 🛫 Project Badges
 
 ![HTML5](https://img.shields.io/badge/frontend-html5-orange?logo=html5)
 ![CSS3](https://img.shields.io/badge/style-css3-blue?logo=css3)
@@ -23,7 +23,7 @@ Lightweight WPM Typing Test built with Python FastAPI and Vanilla JavaScript
 
 ---
 
-# 👀 Visitors
+## 👀 Visitors
 
 ![Visitors](https://komarev.com/ghpvc/?username=Blue-Rangoon&label=Repository%20Views&color=blue)
 
