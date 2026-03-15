@@ -13,6 +13,7 @@
 
 https://flask-wpm-typing-program.vercel.app/
 
+---
 
 # ⌨️ WPM Typing Test (FastAPI + JavaScript)
 
