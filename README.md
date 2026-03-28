@@ -70,6 +70,10 @@ Random text is fetched dynamically from the backend API.
 
 ## 🧠 Tech Stack
 
+<p align="center">
+<img src="https://skillicons.dev/icons?i=html,css,js,py,flask,fastapi,git" />
+</p>
+
 **Backend**
 - Python
 - FastAPI
