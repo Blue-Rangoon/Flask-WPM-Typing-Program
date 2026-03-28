@@ -71,7 +71,7 @@ Random text is fetched dynamically from the backend API.
 ## 🧠 Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,py,fastapi,flask,git" />
+<img src="https://skillicons.dev/icons?i=html,css,js,py,fastapi,flask,git,vercel" />
 </p>
 
 **Backend**
