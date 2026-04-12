@@ -180,7 +180,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Made with ❤️ by [Saad Ali Rizvi](https://github.com/Blue-Rangoon)**
 
-[![GitHub Stars](https://img.shields.io/github/stars/Blue-Rangoon/wpm-typing-test?style=social)](https://github.com/Blue-Rangoon/wpm-typing-test)
-[![GitHub Forks](https://img.shields.io/github/forks/Blue-Rangoon/wpm-typing-test?style=social)](https://github.com/Blue-Rangoon/wpm-typing-test)
+[![GitHub Stars](https://img.shields.io/github/stars/Blue-Rangoon/wpm-typing-test?style=social)](https://github.com/Blue-Rangoon/Flask-WPM-Typing-Program)
+[![GitHub Forks](https://img.shields.io/github/forks/Blue-Rangoon/wpm-typing-test?style=social)](https://github.com/Blue-Rangoon/Flask-WPM-Typing-Program)
 
 </div>
