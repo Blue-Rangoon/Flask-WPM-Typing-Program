@@ -1,143 +1,182 @@
-# 💬 SpeedType – WPM Typing Program
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&color=success)](https://github.com/Blue-Rangoon/wpm-typing-test)
 
-<p align="center">
-Lightweight WPM Typing Test built with Python FastAPI and Vanilla JavaScript
-</p>
+<div align="center">
 
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com/?lines=WPM+Typing+Test;Improve+Your+Typing+Speed;Frontend+%2B+Backend+Integration;Real-Time+WPM+%26+Accuracy">
-</p>
+![WPM Typing Test](preview.png)
 
----
+# ⌨️ WPM Typing Test
 
-## 🛫 Project Badges
+**A full-stack typing speed test application built with FastAPI & Vanilla JavaScript**
 
-![HTML5](https://img.shields.io/badge/frontend-html5-orange?logo=html5)
-![CSS3](https://img.shields.io/badge/style-css3-blue?logo=css3)
-![JavaScript](https://img.shields.io/badge/logic-javascript-yellow?logo=javascript)
-![Python](https://img.shields.io/badge/backend-python-blue?logo=python)
-![Flask](https://img.shields.io/badge/framework-flask-lightgrey?logo=flask)
-![Vercel](https://img.shields.io/badge/deployment-vercel-black?logo=vercel)
-![Typing](https://img.shields.io/badge/domain-WPM%20%26%20SpeedTyping-purple)
-![Dashboard](https://img.shields.io/badge/ui-dashboard-blue)
+[🌐 Live Demo](https://wpm-typing-python.vercel.app) • [🚀 Quick Start](#-installation) • [📂 Project Structure](#-project-structure) • [🤝 Contributing](#-contributing) • [📜 License](#-license)
 
----
-
-## 👀 Visitors
-
-![Visitors](https://komarev.com/ghpvc/?username=Blue-Rangoon&label=Repository%20Views&color=blue)
-
----
-
-# 🖥️ Project Preview 
-
-![Interface Screen Shot](preview.png)
-
----
-
-# 🌐 Live Demo
-
-https://flask-wpm-typing-program.vercel.app/
-
----
-
-# ⌨️ WPM Typing Test (FastAPI + JavaScript)
-
-A full-stack typing speed test application built using **Python FastAPI** for the backend and **Vanilla JavaScript** for the frontend.
-
-The app measures:
-
-- Words Per Minute (WPM)
-- Typing Accuracy
-- Live typing feedback
-- 60-second countdown timer
-
-Random text is fetched dynamically from the backend API.
+</div>
 
 ---
 
 ## 🚀 Features
 
-- Real-time typing feedback (correct/incorrect highlighting)
-- WPM calculation
-- Accuracy tracking
-- 60-second typing timer
-- Random text generation from backend
-- Fully interactive UI
-- Restart / new text buttons
+- ⚡ Real-time typing feedback (correct/incorrect highlighting)
+- 📊 WPM (Words Per Minute) calculation
+- 🎯 Accuracy tracking (percentage)
+- ⏱️ 60-second countdown timer
+- 🎲 Random text generation from backend API
+- 🔄 Restart / New Text buttons
+- 💻 Fully interactive UI
+- 📱 Responsive design
 
 ---
 
 ## 🧠 Tech Stack
 
-<p align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,py,fastapi,flask,git,vercel" />
-</p>
+<div>
 
-**Backend**
-- Python
-- FastAPI
-- Uvicorn
-- Jinja2
+### Backend
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Uvicorn](https://img.shields.io/badge/Uvicorn-444444?style=flat&logo=unicorn&logoColor=white) ![Jinja2](https://img.shields.io/badge/Jinja2-B41717?style=flat&logo=jinja&logoColor=white)
 
-**Frontend**
-- HTML
-- CSS
-- JavaScript (Vanilla JS)
+### Frontend
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000)
+
+</div>
 
 ---
 
 ## 📂 Project Structure
 
-````markdown
-```bash
+```
 wpm-typing-test/
 │
 ├── api/
-│   └── tutorial.py  
+│   └── tutorial.py          # FastAPI backend & text generation
+│
 ├── static/
-│   ├── style.css
-│   └── script.js
+│   ├── index.js             # Frontend logic
+│   └── index.css            # Styling
+│
 ├── templates/
-│   └── index.html
-├── text.txt
-└── requirements.txt
+│   └── index.html           # HTML template
+│
+├── text.txt                # Text corpus for typing tests
+│
+├── requirements.txt        # Python dependencies
+├── vercel.json             # Vercel deployment config
+├── preview.png             # App preview screenshot
+└── README.md               # This file
 ```
 
-## ⚙️ Installation (Run Locally)
+---
 
-**Clone the repository:**
+## ⚡ Installation
+
+### Prerequisites
+
+- **Python 3.11+** installed
+- **Git** installed
+- A web browser
+
+### Step-by-Step Setup
+
+#### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/wpm-typing-test.git
+git clone https://github.com/Blue-Rangoon/wpm-typing-test.git
 cd wpm-typing-test
-
-
-- Install dependencies:
-pip install -r requirements.txt
-
-
-- Run the server:
-uvicorn tutorial:app --reload
-
-
-- Open in browser:
-http://127.0.0.1:8000
-
-
-- Example API Endpoint
-GET /get-text
 ```
 
-## 5. Format API response properly
-**Response:**
+#### 2️⃣ Create Virtual Environment (Recommended)
 
-````markdown
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS / Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+#### 3️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+#### 4️⃣ Run the Server
+
+```bash
+uvicorn api.tutorial:app --reload
+```
+
+#### 5️⃣ Open in Browser
+
+Navigate to: **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
+
+---
+
+## 🔌 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/` | Render the main typing test page |
+| `GET` | `/get-text` | Returns a random text for typing |
+
+### Example API Response
+
 ```json
 {
   "text": "Practice makes progress."
 }
+```
 
+---
 
+## 🌐 Deploy to Vercel
 
+1. Fork this repository
+2. Go to [Vercel](https://vercel.com)
+3. Import your forked repository
+4. Vercel auto-detects FastAPI - deploy!
 
+**Live Demo:** [https://wpm-typing-python.vercel.app](https://wpm-typing-python.vercel.app)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how you can help:
+
+1. **Fork** the repository
+2. Create a new branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. **Commit** your changes (`git commit -m 'Add amazing feature'`)
+5. **Push** to the branch (`git push origin feature/amazing-feature`)
+6. Open a **Pull Request**
+
+### Ways to Contribute
+
+- 🐛 Report bugs
+- 💡 Suggest new features
+- 🔧 Improve documentation
+- ⚡ Optimize code
+- 🎨 Enhance UI/UX
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+
+**Made with ❤️ by [Saad Ali Rizvi](www.linkedin.com/in/saad-ali-rizvi)**
+
+[![GitHub Stars](https://img.shields.io/github/stars/Blue-Rangoon/wpm-typing-test?style=social)](https://github.com/Blue-Rangoon/wpm-typing-test)
+[![GitHub Forks](https://img.shields.io/github/forks/Blue-Rangoon/wpm-typing-test?style=social)](https://github.com/Blue-Rangoon/wpm-typing-test)
+
+</div>
