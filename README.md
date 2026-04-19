@@ -225,6 +225,5 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 **Made with ❤️ by [Saad Ali Rizvi](https://github.com/Blue-Rangoon)**
 
 [![GitHub followers](https://img.shields.io/github/followers/Blue-Rangoon?style=social)](https://github.com/Blue-Rangoon)
-[![Twitter](https://img.shields.io/twitter/follow/yourhandle?style=social)](https://twitter.com)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Follow-0A66C2?style=social&logo=linkedin)](https://linkedin.com/in/saad-ali-rizvi/)
 </div>
