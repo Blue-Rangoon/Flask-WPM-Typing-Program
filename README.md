@@ -4,49 +4,60 @@
 
 **A full-stack typing speed test application built with FastAPI & Vanilla JavaScript**
 
+![Preview](preview.png)
+
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![Flask](https://img.shields.io/badge/Flask-Framework-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 
-[![Last Commit](https://img.shields.io/github/last-commit/Blue-Rangoon/Smart-Delivery-Route-Planner-AI?style=for-the-badge&color=f39c12)](https://github.com/Blue-Rangoon/Smart-Delivery-Route-Planner-AI/commits/main)
-[![Stars](https://img.shields.io/github/stars/Blue-Rangoon/Smart-Delivery-Route-Planner-AI?style=for-the-badge&color=9b59b6)](https://github.com/Blue-Rangoon/Smart-Delivery-Route-Planner-AI/stargazers)
-[![Contributors](https://img.shields.io/github/contributors/Blue-Rangoon/Smart-Delivery-Route-Planner-AI?style=for-the-badge&color=1abc9c)](https://github.com/Blue-Rangoon/Smart-Delivery-Route-Planner-AI/graphs/contributors)
+[![GitHub stars](https://img.shields.io/github/stars/Blue-Rangoon/wpm-typing-test?style=for-the-badge&color=9b59b6)](https://github.com/Blue-Rangoon/wpm-typing-test/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Blue-Rangoon/wpm-typing-test?style=for-the-badge&color=3498db)](https://github.com/Blue-Rangoon/wpm-typing-test/network)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&color=success)](https://github.com/Blue-Rangoon/Smart-Delivery-Route-Planner-AI)
+[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&color=success)](https://github.com/Blue-Rangoon/wpm-typing-test)
 
-![WPM Typing Test](preview.png)
-
-[🌐 Live Demo](https://wpm-typing-python.vercel.app) • [🚀 Quick Start](#-installation) • [📂 Project Structure](#-project-structure) • [🤝 Contributing](#-contributing) • [📜 License](#-license)
+[🌐 Live Demo](https://wpm-typing-python.vercel.app) • [🚀 Quick Start](#-installation) • [📂 Project Structure](#-project-structure) • [🕹️ How to Use](#-how-to-use) • [🤝 Contributing](#-contributing) • [📜 License](#-license)
 
 </div>
 
 ---
 
+## ✨ Why This Project?
+
+Improve your typing speed with real-time feedback, WPM tracking, and accuracy measurement. Built with a clean, distraction-free interface focused on helping you type faster and more accurately.
+
+---
+
 ## 🚀 Features
 
-- ⚡ Real-time typing feedback (correct/incorrect highlighting)
-- 📊 WPM (Words Per Minute) calculation
-- 🎯 Accuracy tracking (percentage)
-- ⏱️ 60-second countdown timer
-- 🎲 Random text generation from backend API
-- 🔄 Restart / New Text buttons
-- 💻 Fully interactive UI
-- 📱 Responsive design
+| Feature | Description |
+|---------|-------------|
+| ⚡ **Real-time Feedback** | Instant highlighting of correct/incorrect characters |
+| 📊 **WPM Tracking** | Live Words Per Minute calculation |
+| 🎯 **Accuracy Score** | Track your typing accuracy as a percentage |
+| ⏱️ **60-Second Timer** | Race against the clock to improve your speed |
+| 🎲 **Random Text** | Fresh typing content fetched from the backend API |
+| 🔄 **Easy Restart** | One-click restart with new random text |
+| 💻 **Interactive UI** | Smooth, responsive typing experience |
+| 📱 **Mobile Friendly** | Works on desktop and mobile devices |
 
 ---
 
 ## 🧠 Tech Stack
 
-<div>
+<div align="center">
 
 ### Backend
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![Uvicorn](https://img.shields.io/badge/Uvicorn-444444?style=flat&logo=unicorn&logoColor=white) ![Jinja2](https://img.shields.io/badge/Jinja2-B41717?style=flat&logo=jinja&logoColor=white)
+| Python | FastAPI | Uvicorn | Jinja2 |
+|:------:|:-------:|:-------:|:------:|
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) | ![Uvicorn](https://img.shields.io/badge/Uvicorn-444444?style=flat&logo=unicorn&logoColor=white) | ![Jinja2](https://img.shields.io/badge/Jinja2-B41717?style=flat&logo=jinja&logoColor=white) |
 
 ### Frontend
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000)
+| HTML5 | CSS3 | JavaScript |
+|:-----:|:----:|:----------:|
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=000) |
 
 </div>
 
@@ -61,18 +72,19 @@ wpm-typing-test/
 │   └── tutorial.py          # FastAPI backend & text generation
 │
 ├── static/
-│   ├── index.js             # Frontend logic
-│   └── index.css            # Styling
+│   ├── index.js             # Frontend logic (typing detection, scoring)
+│   └── index.css            # Styling & animations
 │
 ├── templates/
 │   └── index.html           # HTML template
 │
-├── text.txt                # Text corpus for typing tests
+├── text.txt                 # Text corpus for random text generation
 │
-├── requirements.txt        # Python dependencies
-├── vercel.json             # Vercel deployment config
-├── preview.png             # App preview screenshot
-└── README.md               # This file
+├── requirements.txt         # Python dependencies
+├── vercel.json              # Vercel deployment configuration
+├── preview.png              # App preview screenshot
+├── LICENSE                  # MIT License
+└── README.md                # This file
 ```
 
 ---
@@ -83,7 +95,7 @@ wpm-typing-test/
 
 - **Python 3.11+** installed
 - **Git** installed
-- A web browser
+- A modern web browser
 
 ### Step-by-Step Setup
 
@@ -124,6 +136,23 @@ Navigate to: **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
 
 ---
 
+## 🕹️ How to Use
+
+1. **Start Typing** — Begin typing the displayed text when ready
+2. **Watch Real-time Feedback** — Green for correct, red for incorrect
+3. **Track Your Stats** — See WPM and accuracy update as you type
+4. **Complete the Test** — Timer runs for 60 seconds
+5. **Restart** — Click "New Text" to try again with fresh content
+
+### Keyboard Shortcuts
+
+| Key | Action |
+|-----|--------|
+| `Tab` | Restart / New Text |
+| `Escape` | Reset current test |
+
+---
+
 ## 🔌 API Endpoints
 
 | Method | Endpoint | Description |
@@ -143,12 +172,24 @@ Navigate to: **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
 
 ## 🌐 Deploy to Vercel
 
-1. Fork this repository
+Deploy your own instance in just a few steps:
+
+1. **Fork** this repository
 2. Go to [Vercel](https://vercel.com)
 3. Import your forked repository
-4. Vercel auto-detects FastAPI - deploy!
+4. Vercel auto-detects FastAPI — deploy!
 
 **Live Demo:** [https://wpm-typing-python.vercel.app](https://wpm-typing-python.vercel.app)
+
+---
+
+## 🏗️ Upcoming Features
+
+- [ ] Multiple time options (30s, 60s, 120s)
+- [ ] Different text categories (programming, quotes, paragraphs)
+- [ ] Historical results tracking
+- [ ] Leaderboard
+- [ ] Custom text input
 
 ---
 
@@ -175,12 +216,15 @@ Contributions are welcome! Here's how you can help:
 
 ## 📜 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
 **Made with ❤️ by [Saad Ali Rizvi](https://github.com/Blue-Rangoon)**
+
+[![GitHub followers](https://img.shields.io/github/followers/Blue-Rangoon?style=social)](https://github.com/Blue-Rangoon)
+[![Twitter](https://img.shields.io/twitter/follow/yourhandle?style=social)](https://twitter.com)
 
 </div>
