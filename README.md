@@ -221,8 +221,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
----
-
 <div align="center">
 
 **Made with ❤️ by Saad Ali Rizvi**
