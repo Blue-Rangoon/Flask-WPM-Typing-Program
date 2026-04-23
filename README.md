@@ -48,7 +48,7 @@ Improve your typing speed with real-time feedback, WPM tracking, and accuracy me
 
 ## 🧠 Tech Stack
 
-<div align="center">
+<div align="left">
 
 ### Backend
 | Python | FastAPI | Uvicorn | Jinja2 |
