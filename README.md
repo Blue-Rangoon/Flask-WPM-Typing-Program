@@ -13,10 +13,11 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com)
 
-[![GitHub stars](https://img.shields.io/github/stars/Blue-Rangoon/wpm-typing-test?style=for-the-badge&color=9b59b6)](https://github.com/Blue-Rangoon/wpm-typing-test/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Blue-Rangoon/wpm-typing-test?style=for-the-badge&color=3498db)](https://github.com/Blue-Rangoon/wpm-typing-test/network)
+[![Last Commit](https://img.shields.io/github/last-commit/Blue-Rangoon/Flask-WPM-Typing-Program?style=for-the-badge&color=f39c12)](https://github.com/Blue-Rangoon/Flask-WPM-Typing-Program/commits/main)
+[![Stars](https://img.shields.io/github/stars/Blue-Rangoon/Flask-WPM-Typing-Program?style=for-the-badge&color=9b59b6)](https://github.com/Blue-Rangoon/Flask-WPM-Typing-Program/stargazers)
+[![Contributors](https://img.shields.io/github/contributors/Blue-Rangoon/Flask-WPM-Typing-Program?style=for-the-badge&color=1abc9c)](https://github.com/Blue-Rangoon/Flask-WPM-Typing-Program/graphs/contributors)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&color=success)](https://github.com/Blue-Rangoon/wpm-typing-test)
+[![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&color=success)](https://github.com/Blue-Rangoon/Flask-WPM-Typing-Program)
 
 [🌐 Live Demo](https://wpm-typing-python.vercel.app) • [🚀 Quick Start](#-installation) • [📂 Project Structure](#-project-structure) • [🕹️ How to Use](#-how-to-use) • [🤝 Contributing](#-contributing) • [📜 License](#-license)
 
