@@ -33,7 +33,7 @@ Designed for performance and simplicity, the app delivers instant feedback while
 
 Whether you're practicing typing or benchmarking your speed, this tool provides a clean and efficient experience.
 
-> 💡 **Live Demo:** *(Add your deployed link here if available)*
+> 💡 **Live Demo:** *(https://flask-wpm-typing-program.vercel.app/)*
 
 ---
 
