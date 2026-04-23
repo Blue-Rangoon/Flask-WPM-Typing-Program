@@ -25,9 +25,28 @@
 
 ---
 
-## ✨ Why This Project?
+## About The Project
 
-Improve your typing speed with real-time feedback, WPM tracking, and accuracy measurement. Built with a clean, distraction-free interface focused on helping you type faster and more accurately.
+A fast and responsive **WPM (Words Per Minute) Typing Test** web app built using Flask, FastAPI, and a static frontend. This project helps users measure their typing speed, accuracy, and consistency in real time with a smooth and minimal interface.
+
+Designed for performance and simplicity, the app delivers instant feedback while maintaining a lightweight backend powered by modern Python frameworks.
+
+Whether you're practicing typing or benchmarking your speed, this tool provides a clean and efficient experience.
+
+> 💡 **Live Demo:** *(Add your deployed link here if available)*
+
+---
+
+## ⭐ Repository Visitors
+
+<div align="center">
+
+![GitHub Views](https://komarev.com/ghpvc/?username=Blue-Rangoon&repo=Flask-WPM-Typing-Program&style=for-the-badge&color=00cf63&label=Profile+Views)
+![GitHub Clones](https://komarev.com/ghpvc/?username=Blue-Rangoon&repo=Flask-WPM-Typing-Program&style=for-the-badge&color=00cf63&label=Repo+Clones&clones=true)
+
+*Thanks for checking it out! If you like the project, consider giving it a ⭐*
+
+</div>
 
 ---
 
