@@ -62,6 +62,7 @@ Whether you're practicing typing or benchmarking your speed, this tool provides 
 | 🔄 **Easy Restart** | One-click restart with new random text |
 | 💻 **Interactive UI** | Smooth, responsive typing experience |
 | 📱 **Mobile Friendly** | Works on desktop and mobile devices |
+| 💬 **Live Chatbot** | interactive Chatbot for smooth experience |
 
 ---
 
